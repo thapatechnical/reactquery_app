@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "urbanist";
+  letter-spacing: 0.1rem;
+}
+
+html {
+  font-family: 62.5%;
+}
+
+body {
+  background-color: #1c2833;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: #fdfefe;
+}
+
+.currency-converter {
+  /* max-width: 60rem; */
+  /* height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.currency-div {
+  padding: 3.2rem;
+  /* background-color: #fdfefe; */
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  color: #1c2833;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.currency-selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #667eea;
+}
+
+input {
+  padding: 0.3rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.1rem;
+  /* color: #fdfefe; */
+  -border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  -ms-border-radius: 0.1rem;
+  -o-border-radius: 0.1rem;
+
+  background: #0099cc;
+
+  cursor: pointer;
+}
+
+section button:hover {
+  /* border: 1px solid #0099cc; */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  /* padding: 5px 10px; */
+}
+
+button:disabled,
+button[disabled] {
+  /* border: 1px solid #999999; */
+  background-color: #cccccc;
+  color: #666666;
+}
